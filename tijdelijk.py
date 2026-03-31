@@ -1,3 +1,5 @@
+from helper import decoreer
+
 def print_aanbieding():
     # Aanmaken van een dictionary voor prijzen ijs-smaken
     prijzen = {
@@ -26,4 +28,5 @@ def print_aanbieding():
         else:
             print(el.lower())
 
+decoreer("Aanbieding")
 print_aanbieding()
