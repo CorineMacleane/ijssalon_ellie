@@ -15,3 +15,9 @@ def onderstreep(tekst=""):
     uit.append(tekst)
     uit.append(len(tekst) * "=")
     return uit
+
+def som(inkomsten):
+    totaal = 0
+    for sleutel in inkomsten:
+        totaal += inkomsten[sleutel]
+    return totaal
